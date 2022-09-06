@@ -31,13 +31,12 @@ const team = [
         role: "Developer",
         img: "img/scott-estrada-developer.jpg",
     },
-
+    
     {
         name: "Barbara Ramos",
         role: "Graphic Designer",
         img: "img/barbara-ramos-graphic-designer.jpg",
     },
-
 ];
 
 console.log(team);
@@ -57,5 +56,4 @@ for (let i = 0; i < team.length; i++) {
     displayedMembers.innerHTML += ` <div class="text-uppercase fs-2 pt-2 text-primary"> ${teamMember.name} </div> `
     displayedMembers.innerHTML += ` <div class="text-uppercase pb-3 text-secondary"> ${teamMember.role} </div> `
     displayedMembers.className = "col-4 mb-3";
-
 }
